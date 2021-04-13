@@ -1,0 +1,7 @@
+node_modules
+
+# ide
+.idea
+.vscode
+
+.eslintcache
