@@ -1,10 +1,3 @@
----
-sidebar_position: 1
-id: 'intro'
-slug: '/'
----
-
-
 # Redux Cool
 
 > *Build redux logic, without getting nervous.*
