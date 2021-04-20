@@ -3,7 +3,7 @@ module.exports = {
   title: 'Redux Cool',
   tagline: 'Build redux logic, without getting nervous.',
   url: 'https://redux-cool.js.org',
-  baseUrl: '/redux-cool/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
