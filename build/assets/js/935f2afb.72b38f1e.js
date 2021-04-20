@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{75:function(e){e.exports=JSON.parse('{"pluginId":"default","version":"current","label":"Next","isLast":true,"docsSidebars":{"tutorialSidebar":[{"type":"link","label":"Redux Cool","href":"/redux-cool/docs/"}]},"permalinkToSidebar":{"/redux-cool/docs/":"tutorialSidebar"}}')}}]);
