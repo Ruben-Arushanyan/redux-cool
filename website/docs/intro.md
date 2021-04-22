@@ -4,10 +4,9 @@ id: 'intro'
 slug: '/'
 ---
 
-
 # Redux Cool
-
 > *Build redux logic, without getting nervous.*
+
 
 ## Description
 
@@ -153,4 +152,4 @@ actionsCreator.ANY.ACTION.TYPE(...args)
 
 ## License
 
-[MIT](https://github.com/ruben-arushanyan/redux-cool/blob/master/LICENSE)
+[MIT](https://github.com/Redux-Cool/redux-cool/blob/master/LICENSE)

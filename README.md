@@ -1,6 +1,10 @@
-# Redux Cool
-
+# [Redux Cool](https://redux-cool.js.org)
 > *Build redux logic, without getting nervous.*
+
+[![redux-cool](https://redux-cool.js.org/img/cover-logo.png)](https://redux-cool.js.org)
+
+> **See the [Redux Cool documentation website](https://redux-cool.js.org) for more details.**
+
 
 ## Description
 
@@ -146,4 +150,4 @@ actionsCreator.ANY.ACTION.TYPE(...args)
 
 ## License
 
-[MIT](https://github.com/ruben-arushanyan/redux-cool/blob/master/LICENSE)
+[MIT](https://github.com/Redux-Cool/redux-cool/blob/master/LICENSE)

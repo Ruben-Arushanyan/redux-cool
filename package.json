@@ -1,14 +1,14 @@
 {
   "name": "redux-cool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redux Cool is an awesome tiny package that allows you to easily and intuitively write redux logic.",
   "license": "MIT",
-  "homepage": "https://github.com/ruben-arushanyan/redux-cool",
+  "homepage": "https://redux-cool.js.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ruben-arushanyan/redux-cool"
+    "url": "https://github.com/Redux-Cool/redux-cool"
   },
-  "bugs": "https://github.com/ruben-arushanyan/redux-cool/issues",
+  "bugs": "https://github.com/Redux-Cool/redux-cool/issues",
   "keywords": [
     "redux-cool",
     "redux-toolkit",
