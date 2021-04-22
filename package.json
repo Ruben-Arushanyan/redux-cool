@@ -1,6 +1,6 @@
 {
   "name": "redux-cool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Redux Cool is an awesome tiny package that allows you to easily and intuitively write redux logic.",
   "license": "MIT",
   "homepage": "https://redux-cool.js.org",
