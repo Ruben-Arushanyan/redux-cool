@@ -33,14 +33,12 @@ jobs:
           node-version: '14.x'
       - name: Release to GitHub Pages
         env:
-          GH_NAME: ruben-arushanyan
-          GH_EMAIL: "ruben.arushanyan24@gmail.com"
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USE_SSH: true
           GIT_USER: ruben-arushanyan
         run: |
-          git config --global user.email "${GH_NAME}"
-          git config --global user.name "${GH_EMAIL}"
+          git config --global user.email "ruben.arushanyan24@gmail.com"
+          git config --global user.name "ruben-arushanyan"
           if [ -e package-lock.json ]; then
           npm ci
           else
