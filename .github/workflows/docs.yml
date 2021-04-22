@@ -1,0 +1,49 @@
+name: Docs Deployment
+
+on:
+  pull_request:
+    branches: [docs]
+  push:
+    branches: [docs]
+
+jobs:
+  checks:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+      - name: Test Build
+        run: |
+          if [ -e package-lock.json ]; then
+          npm ci
+          else
+          npm i
+          fi
+          npm run build
+  gh-release:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+      - name: Release to GitHub Pages
+        env:
+          GH_NAME: ruben-arushanyan
+          GH_EMAIL: "ruben.arushanyan24@gmail.com"
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USE_SSH: true
+          GIT_USER: ruben-arushanyan
+        run: |
+          git config --global user.email "${GH_NAME}"
+          git config --global user.name "${GH_EMAIL}"
+          if [ -e package-lock.json ]; then
+          npm ci
+          else
+          npm i
+          fi
+          npm run deploy
