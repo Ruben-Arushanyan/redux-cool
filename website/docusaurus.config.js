@@ -98,12 +98,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/Redux-Cool/redux-cool/edit/gh-pages/website/',
+            'https://github.com/Redux-Cool/redux-cool/edit/master/website/',
         },
         // blog: {
         //   showReadingTime: true,
         //   editUrl:
-        //     'https://github.com/Redux-Cool/redux-cool/edit/gh-pages/website/blog/',
+        //     'https://github.com/Redux-Cool/redux-cool/edit/master/website/blog/',
         // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
