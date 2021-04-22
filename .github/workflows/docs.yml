@@ -17,6 +17,7 @@ jobs:
           node-version: '14.x'
       - name: Test Build
         run: |
+          cd website
           if [ -e package-lock.json ]; then
           npm ci
           else
@@ -39,6 +40,7 @@ jobs:
         run: |
           git config --global user.email "ruben.arushanyan24@gmail.com"
           git config --global user.name "ruben-arushanyan"
+          cd website
           if [ -e package-lock.json ]; then
           npm ci
           else
