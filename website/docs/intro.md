@@ -145,7 +145,7 @@ reducersCreator(name, initialState, reducerTree)
 ```javascript
 actionsCreator.ANY.ACTION.TYPE(...args)
 ```
-- see: [Actions Creator library](https://github.com/Ruben-Arushanyan/actions-creator)  for details
+- see: [Actions Creator library](https://github.com/Ruben-Arushanyan/actions-creator)  for details.
 
 ## Maintainers
 
