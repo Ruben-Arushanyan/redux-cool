@@ -15,7 +15,7 @@ npm install redux-cool
 ```
 
 ### Recipes
-Այն տրամադրում է ընդամենը երկու function:
+It has only two functions:
 ```javascript
 import {
     reducersCreator,
@@ -26,7 +26,9 @@ import {
 - **[actionsCreator](/docs/concepts/actions-creator)** : For creating **action objects**.
 
 ### Reducer-Tree concept
-It's an javascript object *(can have any deep and nested structure)* that intuitively and in readible ways, defines *action handlers* for reducer. See details:  **[Reducer Tree](/docs/concepts/reducer-tree)**
+It's a javascript object *(can have any deep and nested structure)* that intuitively and in visible ways, defines *action handlers* for reducer. See details:
+- **[Reducer Tree](/docs/concepts/reducer-tree)**
 
 ### Global and Local Actions concepts
-**Redux Cool** ֊ում կան action ֊ների **Global** and **Local** context ֊ի գաղափար։ Global context ֊ով action ֊ները կարող են տարածվել բազմաթիվ Reducer ֊ների վրա։ Իսկ Local contex -ով action ֊ները կարող են տարածվել միայն կոնկրետ մեկ reducer ֊ի վրա․ See details:  **[Global And Local Actions](/docs/concepts/global-and-local-actions)**
+The actions have **Global** and **Local** contexts in **Redux Cool**. The actions with Global context can be applied to various Reducers.  The actions with local contexts can be only be applied to one specific reducer. See details:
+- **[Global And Local Actions](/docs/concepts/global-and-local-actions)**
