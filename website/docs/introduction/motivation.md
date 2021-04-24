@@ -6,16 +6,16 @@ slug: '/introduction'
 
 
 ### Prerequisites
-Մենք ենթադրում ենք, որ դուք ծանոթ եք [Redux](https://redux.js.org) ֊ի հետ։
+For the start, we really hope that you are familiar with [Redux](https://redux.js.org).
 
 
-### Նախապատմություն
-Ինչպես գիտենք Redux is a predictable state container for JavaScript apps․ Ահա թե ինչպիսի կառուցվածք(architecture) ունի այն
+### Introduction
+As we know **Redux** is a predictable state container for JavaScript apps. Below you can find the architecture of Redux.
 ![redux architecture diagram](/img/redux-diagram.png)
-Ինչպես տեսնում եք վերեվի դիագրամից, մենք ունենք **store** որտեղ պահվում է մեր **state data** ֊ն, եվ եթե ուզում ենք ինչոր բան փոփոխենք state֊ում, մենք պետք է ստեղծենք **action object**, որը կունենա իր մեջ ամբողջ ինֆորմացիան այն մասին, թե ինչ եվ ինչպես պետք է փոփոխել state -ը․ Այնուհետեվ **action object** ֊ը պետք է ուղարկել reducer ֊ին․ Reducer ֊ը պետք է ստանա action object ֊ը եվ ըստ դրա հասկանա ինչը եվ ինչպես փոփոխել ու իրականցնի այդ փոփոխուրյունը․ Ահա այսպես է աշխատում redux ֊ում state management ֊ը, որը որպես կոնցեպտ բավականին լավն է, քանի որ այն կանխատեսելի է, մենք անմիջականորեն չենք փոփոխում state -ը․
+As can be seen from the diagram above,  we have a **store** where our **state data** is stored, and if we want to change something in the state,  we must create an **action object** which will contain all the information on how we need to change the state. Afterward, we need to dispatch the action object to the reducer. The reducer must receive the action object and based on that it will figure out what to change and how to make that change. This is how the state management works in Redux. Redux as a state management concept is really good because it is predictable - we are not changing the state directly.
 
-Redux ֊ը որպես կոնցեպտ լավն է, բայց երբ որ մենք այն փորձում ենք իրականացնել ռեալ եվ complex նախագծերում, առաջ են գալիս բազմաթիվ խնդիրներ եվ ձանձրույթներ, որոնց պատճառով շատերը հրաժարվում են օգտագործել redux․
+As we already mentioned Redux is very good as a state management concept, however, when we try to realize it in real and complex projects, we encounter numerous problems and headaches which is why many developers refuse to use Redux.
 
-[ReduxToolkit](https://redux-toolkit.js.org/) ֊ը փորձել է լուծել այդ խնդիրնեը, բայց անօգուտ․ Ես կարծում եմ ReduxToolkit ստեղծողները չեն իմացել այն կարեվոր խնդիրների մասին, որոնք իհայտ են գալիս մեծ և complex նախագծերում redux օգտագործելիս։
+[ReduxToolkit](https://redux-toolkit.js.org/) tried to solve these problems but with no result. I think that the creators of ReduxToolkit did not know about the important problems that emerge when we start using Redux in big and complex projects.
 
-**Redux Cool** -ը ստեղծվել է, որպեսզի լուծի այդ բոլոր խնդիրները․
+I created the **Redux Cool** to solve all of these problems.
