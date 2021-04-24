@@ -18,18 +18,29 @@ module.exports = {
       },
       items: [
         {
-          type: 'doc',
-          docId: 'intro',
+          to: 'docs/introduction',
           position: 'left',
           label: 'Getting Started',
+          activeBasePath: 'docs/introduction'
         },
-        // {
-        //   type: 'doc',
-        //   docId: 'tutorial-basics/create-a-page',
-        //   position: 'left',
-        //   label: 'Tutorials',
-        // },
-        // {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          to: 'docs/concepts',
+          position: 'left',
+          label: 'Concepts',
+          activeBasePath: 'docs/concepts'
+        },
+        {
+          to: 'docs/tutorials',
+          position: 'left',
+          label: 'Tutorials',
+          activeBasePath: 'docs/tutorials'
+        },
+        {
+          to: 'docs/api',
+          position: 'left',
+          label: 'API',
+          activeBasePath: 'docs/api'
+        },
         {
           href: 'https://github.com/Redux-Cool/redux-cool',
           label: 'GitHub',
@@ -45,7 +56,19 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: '/docs',
+              to: '/docs/introduction',
+            },
+            {
+              label: 'Concepts',
+              to: '/docs/concepts',
+            },
+            {
+              label: 'Tutorials',
+              to: '/docs/tutorials',
+            },
+            {
+              label: 'API',
+              to: '/docs/api',
             },
           ],
         },
