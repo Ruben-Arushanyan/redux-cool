@@ -11,12 +11,14 @@ In many projects that have various features, there are many cases when it is req
 #### Solution:
 In **Redux Cool**,  the reducers are created with the help of a **reducer tree** - the **reducer tree** is a nested javascript object in which **action-handler** functions are defined. Each **action-handler** has its logical place in the **reducer tree**. The hierarchical order of **action-handlers** enables us to define reducer-logic in a grouped and visual form. 
 
-Besides, in **Redux Cool**, we don't have a separate **action creator** function for each action, instead, we have one `actionsCreator` function with which we can create any action object in dynamic and inline ways.
+Besides, in **Redux Cool**, we don't have a separate **action creator** function for each action, instead, we have one `actionsCreator` action producer with which we can create any action object in dynamic and inline ways.
 
 See details: 
 - [Reducer Tree](/docs/concepts/reducer-tree)
 - [Reducers Creator](/docs/concepts/reducers-creator)
 - [Actions Creator](/docs/concepts/actions-creator)
+
+
 
 ## Problem 2: Define a Single Action In Multiple Reducers
 In complex projects, we are usually splitting our reducer functions into separate reducer functions, each managing independent parts of the state. Then, using the **combineReducers** function of Redux, we are combining it creating one general reducer function. Very often, there is a need to have specific types of actions, which we would like to apply simultaneously to all reducers or to specific reducers. For example, when we have **LOGOUT** action and during that action, we want to erase all the account-specific data that exists in our Redux state.
@@ -26,6 +28,8 @@ The actions have **Global** and **Local** contexts in **Redux Cool**. The action
 
 See details:
 - [Global And Local Actions](/docs/concepts/global-and-local-actions)
+
+
 
 
 ## Problem 3: Actions With Callback capability
