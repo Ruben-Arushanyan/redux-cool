@@ -43,7 +43,7 @@ const type1 = String(actionsCreator.MY.FIRST.ACTION)
 console.log(type1)
 //      "MY/FIRST/ACTION"
 
-//      or when doing any string conversion
+//      or any string conversion
 const type2 = actionsCreator.MY.FIRST.ACTION + ""
 console.log(type2)
 //      "MY/FIRST/ACTION"

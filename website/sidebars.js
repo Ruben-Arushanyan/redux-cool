@@ -49,7 +49,7 @@ module.exports = {
         {
           type: 'doc',
           id: 'api/index',
-          label: 'API Reference',
+          label: 'Index',
         },
         'api/reducersCreator',
         'api/actionsCreator',
