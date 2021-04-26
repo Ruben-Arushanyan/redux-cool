@@ -14,7 +14,7 @@ module.exports = {
       title: 'Redux Cool',
       logo: {
         alt: 'Redux Cool Logo',
-        src: 'img/logo.jpg',
+        src: 'img/logo.png',
       },
       items: [
         {

@@ -13,7 +13,7 @@ const {actionsCreator} = require("redux-cool")
 ### `actionsCreator.ANY.ACTION.TYPE([arg1], [arg2], ..., [callback])`
 
 **actionsCreator** is an action producer, with which we can create any action object in dynamic and inline ways.
-We can apply **actionsCreator** with any properties combination and call as a function and receive the action. We can pass the callback function as the last argument. actionsCreator will check and if the last argument is a function, it will be considered as a callback function.
+We can apply **actionsCreator** with the combination of any properties and call as a function and receive the action. We can pass the callback function as the last argument. actionsCreator will check and if the last argument is a function, it will be considered as a callback function.
 
 *Examples:*
 ```javascript
@@ -44,7 +44,7 @@ const callbackable_action = actionsCreator.CALLBACKABLE.EXAMPLE(1, 2, 3, my_call
 **action** `<Object>`
 - **type** `<String>` action type as a string
 - **args** `<Array>` any array that contains all the data needed for the action
-- **cb** `<Function>` callback function by default is *identity function (x => x)*
+- **cb** `<Function>` callback function by default is the *identity function (x => x)*
 - **_index** `<Integer>` positive integer number (1, 2, 3, ...)․ It is created automatically and shows action order by index. It can be used as a unique identifier or help understand which action was created earlier(in rare cases, it may be necessary)
 
 ## `actionsCreator` without function call

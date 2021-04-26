@@ -4,32 +4,33 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Speed in Software Development',
+    Svg: require('../../static/img/fast.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Using <b>Redux Cool</b> toolkit, you will build Redux State Management Logic
+        in our app a few times faster than if you use any other toolkit existing up to this date.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Intuitively Understandable',
+    Svg: require('../../static/img/intuition.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        In the <b>Redux Cool</b>, the reducer functions are created with the help of <b>Reducer-Tree </b> which 
+        enables us to intuitively understand the entire redux logic at first glance.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Simple API',
+    Svg: require('../../static/img/api.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The Redux Cool API surface is very tiny. It has only <b>two</b> Top-Level Exports:
+        <br/>
+        <b>reducersCreator</b> and <b>actionsCreator</b>
       </>
     ),
   },

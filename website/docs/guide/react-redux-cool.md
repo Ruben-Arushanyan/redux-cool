@@ -3,12 +3,12 @@ sidebar_position: 2
 title: "Usage Guide: React, Redux Cool"
 ---
 
-> This is only usage guide, which show how to use **Redux Cool** in React app, if you want to fully understand Redux Cool concepts and philosophy, please see [Redux Cool Concepts](/docs/concepts).
+> This is only usage guide, which shows how to use **Redux Cool** in React app, if you want to fully understand Redux Cool concepts and philosophy, please see [Redux Cool Concepts](/docs/concepts).
 
-This guid contain step by step instructions to using **Redux Cool** in React app. If you want to see final result at once, you can clone [finial result repository](https://github.com/Examples-Of-Usage/example__react__redux-cool) and run locally.
+This guide contains step by step instructions on how to use **Redux Cool** in React app. If you want to see the final result at once, you can clone [finial result repository](https://github.com/Examples-Of-Usage/example__react__redux-cool) and run locally.
 
 ## Step 1: Setup a minimal React development environment
-To make a minimal React development environment. you can use [create-react-app](https://github.com/facebook/create-react-app)
+To create a minimal React development environment. you can use [create-react-app](https://github.com/facebook/create-react-app)
 ```bash
 npx create-react-app redux-cool-example
 ```
@@ -165,7 +165,7 @@ ReactDOM.render(
 
 ## Step 7: Use Redux State and Actions in React Component
 
-Replace `src/App.js` file to:
+Replace `src/App.js` file with:
 
 *src/App.js*
 ```javascript
