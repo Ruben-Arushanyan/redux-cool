@@ -54,6 +54,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
+      
       description="Redux Cool is an awesome tiny package that allows you to easily and intuitively write redux logic"
     >
       <main>
