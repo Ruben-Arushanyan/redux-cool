@@ -1,11 +1,11 @@
-/* stylelint-disable docusaurus/copyright-header */
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Copyright (c) 2020-present Ruben Arushanyan (https://github.com/ruben-arushanyan)
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ * 
  */
-
-/* You can override the default Infima variables here. */
+ 
 :root {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
