@@ -30,10 +30,10 @@ module.exports = {
           activeBasePath: 'docs/concepts'
         },
         {
-          to: 'docs/tutorials',
+          to: 'docs/guide',
           position: 'left',
-          label: 'Tutorials',
-          activeBasePath: 'docs/tutorials'
+          label: 'Usage Guide',
+          activeBasePath: 'docs/guide'
         },
         {
           to: 'docs/api',
@@ -63,8 +63,8 @@ module.exports = {
               to: '/docs/concepts',
             },
             {
-              label: 'Tutorials',
-              to: '/docs/tutorials',
+              label: 'Usage Guide',
+              to: '/docs/guide',
             },
             {
               label: 'API',
@@ -82,24 +82,12 @@ module.exports = {
             {
               label: 'Dev.to',
               href: 'https://dev.to/redux-cool',
-            },
-            // {
-            //   label: 'Stack Overflow',
-            //   href: 'https://stackoverflow.com/questions/tagged/redux-cool',
-            // },
-            // {
-            //   label: 'Discord',
-            //   href: 'https://discordapp.com/invite/redux-cool',
-            // },
+            }
           ],
         },
         {
           title: 'More',
           items: [
-            // {
-            //   label: 'Blog',
-            //   to: '/blog',
-            // },
             {
               label: 'GitHub',
               href: 'https://github.com/Redux-Cool/redux-cool',
@@ -123,11 +111,6 @@ module.exports = {
           editUrl:
             'https://github.com/Redux-Cool/redux-cool/edit/master/website/',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   editUrl:
-        //     'https://github.com/Redux-Cool/redux-cool/edit/master/website/blog/',
-        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

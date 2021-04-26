@@ -30,15 +30,15 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Tutorials',
+      label: 'Usage Guide',
       collapsed: false,
       items: [
         {
           type: 'doc',
-          id: 'tutorials/index',
-          label: 'Tutorials: Index',
+          id: 'guide/index',
+          label: 'Index',
         },
-        'tutorials/react-redux-cool'
+        'guide/react-redux-cool'
       ],
     },
     {
