@@ -1,3 +1,5 @@
+const path = require('path')
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Redux Cool',
@@ -106,20 +108,23 @@ module.exports = {
     [
       '@docusaurus/plugin-pwa',
       {
+        debug: false,
         offlineModeActivationStrategies: [
+          'appInstalled',
           'standalone',
           'queryString',
         ],
+        swCustom: path.resolve(__dirname, 'src/sw.js'),
         pwaHead: [
           {
             tagName: 'link',
             rel: 'icon',
-            href: 'img/logo.png',
+            href: '/img/logo.png',
           },
           {
             tagName: 'link',
             rel: 'manifest',
-            href: `manifest.json`,
+            href: `/manifest.json`,
           },
           {
             tagName: 'meta',
@@ -139,18 +144,18 @@ module.exports = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: 'img/logo.png',
+            href: '/img/logo.png',
           },
           {
             tagName: 'link',
             rel: 'mask-icon',
-            href: 'img/logo.svg',
+            href: '/img/logo.svg',
             color: 'rgb(62, 204, 94)',
           },
           {
             tagName: 'meta',
             name: 'msapplication-TileImage',
-            content: 'img/logo.png',
+            content: '/img/logo.png',
           },
           {
             tagName: 'meta',
