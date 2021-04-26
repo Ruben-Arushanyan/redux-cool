@@ -20,7 +20,7 @@ module.exports = {
         {
           type: 'doc',
           id: 'concepts/index',
-          label: 'Concepts: Index',
+          label: 'Index',
         },
         'concepts/reducer-tree',
         'concepts/reducers-creator',
