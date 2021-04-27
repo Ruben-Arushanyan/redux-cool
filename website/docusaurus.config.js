@@ -111,7 +111,6 @@ module.exports = {
     },
   },
   plugins: [
-    '@docusaurus/plugin-google-gtag',
     [
       '@docusaurus/plugin-pwa',
       {
