@@ -15,8 +15,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.73",
-    "@docusaurus/plugin-google-analytics": "*",
-    "@docusaurus/plugin-google-gtag": "*",
+    "@docusaurus/plugin-google-gtag": "2.0.0-alpha.73",
     "@docusaurus/plugin-pwa": "2.0.0-alpha.73",
     "@docusaurus/preset-classic": "2.0.0-alpha.73",
     "@mdx-js/react": "^1.6.21",
