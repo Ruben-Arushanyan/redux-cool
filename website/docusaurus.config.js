@@ -12,6 +12,7 @@ module.exports = {
   organizationName: 'Redux-Cool',
   projectName: 'redux-cool',
   themeConfig: {
+    image: 'img/logos/logo-1200x1200.png',
     navbar: {
       title: 'Redux Cool',
       logo: {
