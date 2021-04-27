@@ -13,6 +13,11 @@ module.exports = {
   projectName: 'redux-cool',
   themeConfig: {
     image: 'img/logos/logo-1536x768.png',
+    gtag: {
+      trackingID: 'G-3XQYZ43FD5',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     navbar: {
       title: 'Redux Cool',
       logo: {
@@ -106,6 +111,7 @@ module.exports = {
     },
   },
   plugins: [
+    '@docusaurus/plugin-google-gtag',
     [
       '@docusaurus/plugin-pwa',
       {
