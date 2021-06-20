@@ -16,6 +16,5 @@ As can be seen from the diagram above,  we have a **store** where our **state da
 
 As we have already mentioned, Redux is very good as a state management concept, however, when we try to realize it in real and complex projects, we encounter numerous problems and headaches which is why many developers refuse to use Redux.
 
-[ReduxToolkit](https://redux-toolkit.js.org/) tried to solve these problems but with no result. I think that the creators of ReduxToolkit did not know about the important problems that emerge when we start using Redux in big and complex projects.
 
 I created the **Redux Cool** to solve all of these problems.
