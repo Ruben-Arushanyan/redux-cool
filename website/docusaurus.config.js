@@ -13,6 +13,9 @@ module.exports = {
   projectName: 'redux-cool',
   themeConfig: {
     image: 'img/logos/logo-1536x768.png',
+    googleAnalytics: {
+      trackingID: 'UA-195566886-1',
+      anonymizeIP: true,
     gtag: {
       trackingID: 'G-3XQYZ43FD5',
     },
@@ -109,6 +112,7 @@ module.exports = {
     },
   },
   plugins: [
+    '@docusaurus/plugin-google-analytics',
     [
       '@docusaurus/plugin-pwa',
       {
