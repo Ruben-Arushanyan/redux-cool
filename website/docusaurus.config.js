@@ -16,6 +16,7 @@ module.exports = {
     googleAnalytics: {
       trackingID: 'UA-195566886-1',
       anonymizeIP: true,
+    },
     gtag: {
       trackingID: 'G-3XQYZ43FD5',
     },
