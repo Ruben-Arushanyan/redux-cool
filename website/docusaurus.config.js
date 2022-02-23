@@ -1,6 +1,9 @@
 // site metadata
 const siteMetadata = require('./config/site-metadata')
 
+// deployment
+const deployment = require('./config/deployment')
+
 // plugins
 const plugins = require('./config/plugins')
 
@@ -8,18 +11,13 @@ const plugins = require('./config/plugins')
 const presets = require('./config/presets')
 
 // theme
-const themeConfig = require('./config/theme')
+const theme = require('./config/theme')
 
 module.exports = {
   ...siteMetadata,
-  tagline: 'Build redux logic, without getting nervous.',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  organizationName: 'Redux-Cool',
-  projectName: 'redux-cool',
+  ...deployment,
 
-
-  themeConfig,
+  themeConfig: theme,
   plugins,
   presets,
 };
