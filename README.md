@@ -16,7 +16,7 @@ npm install redux-cool
 ```
 
 ## [Documentation](https://redux-cool.js.org)
-You can find the React documentation [on the website](https://redux-cool.js.org).
+You can find the full documentation [on the website](https://redux-cool.js.org).
 
 The documentation is divided into several sections:
 
