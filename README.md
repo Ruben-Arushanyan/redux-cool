@@ -37,10 +37,10 @@ The documentation is divided into several sections:
     - [API - reducersCreator](https://redux-cool.js.org/docs/api/reducersCreator)
     - [API - actionsCreator](https://redux-cool.js.org/docs/api/actionsCreator)
 
-## Maintainers
+## Authors
 
 - [Ruben Arushanyan](https://github.com/ruben-arushanyan)
 
 ## License
 
-[MIT](https://github.com/Redux-Cool/redux-cool/blob/master/LICENSE)
+[MIT License](https://github.com/Ruben-Arushanyan/redux-cool/blob/master/LICENSE)
