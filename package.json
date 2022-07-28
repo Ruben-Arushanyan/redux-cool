@@ -4,11 +4,15 @@
   "description": "Redux Cool is an awesome tiny package that allows you to easily and intuitively write redux logic.",
   "license": "MIT",
   "homepage": "https://redux-cool.js.org",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Redux-Cool/redux-cool"
   },
-  "bugs": "https://github.com/Redux-Cool/redux-cool/issues",
+  "bugs": {
+    "url": "https://github.com/Redux-Cool/redux-cool/issues",
+    "email": "ruben.arushanyan24@gmail.com"
+  },
   "keywords": [
     "redux-cool",
     "redux-toolkit",
@@ -20,21 +24,37 @@
     "actions-creator",
     "reducers-creator"
   ],
-  "author": "Ruben Arushanyan <ruben.arushanyan24@gmail.com> (https://github.com/ruben-arushanyan)",
-  "main": "src/index.js",
+  "author": {
+    "name": "Ruben Arushanyan",
+    "email": "ruben.arushanyan24@gmail.com",
+    "url": "https://www.linkedin.com/in/ruben-arushanyan-42bba9235/"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/Ruben-Arushanyan"
+  },
   "scripts": {
-    "test": "jest"
+    "build": "node scripts/build.js",
+    "test": "npm run to-pack --if-present; node scripts/test.js",
+    "to-pack": "npm run build --if-present; node scripts/to-pack.js",
+    "to-npm-publish": "npm run to-pack --if-present; node scripts/to-npm-publish.js"
   },
-  "publishConfig": {
-    "registry": "https://registry-url"
-  },
-  "npmName": "redux-cool",
+  "packableFiles": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "dist/."
+  ],
   "devDependencies": {
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
     "jest": "^26.6.3",
     "redux": "^4.0.5"
   },
   "dependencies": {
-    "actions-creator": "^1.0.1",
-    "reducers-creator": "^1.0.1"
-  }
+    "actions-creator": "^1.1.0",
+    "reducers-creator": "^1.1.0"
+  },
+  "sideEffects": false
 }

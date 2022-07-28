@@ -15,7 +15,7 @@ const {
 const {
     reducersCreator,
     actionsCreator,
-} = require('../src')
+} = require('../.packed')
 
 const initialState = {
     profile: {
